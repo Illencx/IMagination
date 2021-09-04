@@ -1,14 +1,16 @@
 <template>
   <topbar></topbar>
   <router-view/>
+  <bott-bar></bott-bar>
 </template>
 
 
 <script>
 import Topbar from './components/Topbar.vue'
+import BottBar from './components/BottBar.vue'
 
 export default {
-  components: { Topbar },
+  components: { Topbar, BottBar },
 
 
 }

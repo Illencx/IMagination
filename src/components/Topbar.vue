@@ -1,9 +1,16 @@
 <template>
   <div class="tbar">
+    <router-link to="/">
     <img src="logo.png" alt="logo" class="logo">
+    </router-link>
 
-
-    <span>  </span>
+    <span>
+      <router-link to='Login'>
+      <el-button class="login" size="small" type="primary" >
+        登录
+      </el-button>
+      </router-link>
+    </span>
 
   </div>
 </template>
@@ -27,7 +34,12 @@ export default {
 .logo{
   margin-left: 10px;
   position: absolute;
-  left: 0;
+  left: 5%;
   width: 180px;
+}
+.login{
+  position: absolute;
+  top: 1%;
+  right: 5%;
 }
 </style>

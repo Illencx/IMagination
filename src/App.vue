@@ -10,7 +10,7 @@ import Topbar from './components/Topbar.vue'
 import BottBar from './components/BottBar.vue'
 
 export default {
-  components: { Topbar, BottBar },
+  components: { Topbar, BottBar},
 
 
 }

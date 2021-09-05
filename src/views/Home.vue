@@ -27,6 +27,27 @@ export default {
 
 <style scoped>
 
+
+@media screen and (max-width: 450px) {
+
+.slogan{
+  font-size: 250%;
+  position: absolute;
+  top: 10%;
+  width: 250px;
+  margin: auto;
+}
+.bg {
+  z-index: -2;
+}
+
+.img{
+  display: none;
+  width: 80%;
+}
+
+}
+
 .slogan{
   font-size: 250%;
   position: absolute;

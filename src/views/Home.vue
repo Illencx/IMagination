@@ -50,7 +50,7 @@ export default {
 
 .slogan{
   font-size: 250%;
-  position: absolute;
+  position: absolute; 
   top: 25%;
   left: 20%;
 

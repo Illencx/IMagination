@@ -16,7 +16,7 @@
     
     <div style="position:absolute;bottom:20%;right:25%">
       <a href="/#/reg" style="color:#409EFF;text-decoration:none">创建账户 &nbsp;</a>
-      <el-button type="primary" > 登录 </el-button>
+      <el-button type="primary" @click="confirmLogin"> 登录 </el-button>
     </div>
     
   </el-card>
@@ -29,6 +29,11 @@ data(){
     password:'',
     account:''
   }
+},
+methods :{
+
+
+
 }
 }
 </script>

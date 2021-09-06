@@ -1,4 +1,5 @@
 <template>
+  <img src="bg1.jpg" alt="1" class="bg">
   <el-card class="main">
     <div class="login_title">登录/login</div>
 
@@ -63,5 +64,9 @@ left: 25%;
 .sub{
   color: gray;
   font-size: 20PX;
+}
+.bg{
+  z-index: -2;
+  position: fixed;
 }
 </style>

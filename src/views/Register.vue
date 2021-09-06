@@ -1,8 +1,7 @@
 <template>
+  <img src="bg2.jpg" alt="1" class="bg">
   <el-card class="main">
     <div class="login_title">注册/Register</div>
-
-    
     <div style="margin-top:170px">
     昵称:
     <el-input size="small" class="input_name" v-model="name"></el-input>
@@ -68,5 +67,9 @@ left: 25%;
 .sub{
   color: gray;
   font-size: 20PX;
+}
+.bg{
+  z-index: -2;
+  position: fixed;
 }
 </style>
